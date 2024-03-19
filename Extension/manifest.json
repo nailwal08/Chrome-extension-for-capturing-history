@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome History",
+    "description": "Capture links of visited pages and put them in a text file.",
+    "version": "1.0",
+    "permissions": [
+      "history",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
